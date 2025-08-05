@@ -7,7 +7,7 @@ import { FaArrowDown } from "react-icons/fa6";
 import { tools } from '@/public/constants';
 import Image from 'next/image';
 
-export default function () {
+export default function Page() {
   return (
     <div className='p-5 sm:px-10 md:px-15 lg:pt-15 xl:px-30 2xl:px-70'>
       <div className='flex flex-col lg:flex-row items-center gap-0 lg:gap-10 lg:justify-center lg:items-start'>
