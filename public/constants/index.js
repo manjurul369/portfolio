@@ -15,7 +15,7 @@ export const projectInfo = [
         description: "An e-commerce website clone of Nike, built with Next.js, JavaScript, and Tailwind CSS. It includes product listings, a shopping cart, and a responsive design for an optimal user experience.",
         image: nike,
         technologies: 
-        ["Next.js", "React.js", "JavaScript", "Tailwind CSS"],
+        ["React.js", "JavaScript", "Tailwind CSS"],
         github: "https://github.com/manjurul369/nike-shoe",
         live: "https://manjurul369.github.io/nike-shoe/"
     },

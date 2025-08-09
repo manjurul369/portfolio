@@ -18,10 +18,15 @@ export default function Page() {
           <div className='flex flex-col gap-20 mt-15 lg:mt-5'>
             <div className='flex flex-col items-center lg:items-start'>
               <div className='flex flex-col items-center lg:items-start sm:flex-row md:flex-col sm:gap-2'>
-                <h1 className='text-5xl md:text-8xl font-bold leading-11 md:leading-13'>SOFTWARE</h1>
-                <h1 className='text-5xl md:text-8xl font-bold opacity-15'>ENGINEER</h1>
+                <h1 className='text-5xl md:text-8xl font-bold leading-11 md:leading-13'>DOWNLOAD</h1>
+                <h1 className='text-5xl md:text-8xl font-bold opacity-15'>RESUME</h1>
               </div>
-              <p className='text-center lg:text-left text-para-black text-lg font-medium leading-6 mt-3 max-w-[480px]'>Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products.</p>
+              <p className='text-center lg:text-left text-para-black text-lg font-medium leading-6 mt-3 max-w-[480px]'>Download my comprehensive resume to explore my journey in web development, data science, and graphic design. Discover detailed insights into my projects, technical expertise, and professional experience.</p>
+              <Link href="https://drive.google.com/file/d/1raJQQoEbf9T560JxWvaAmjuFttU9jdIv/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <button className='mt-4 lg:px-10 lg:py-4 px-8 py-3 lg:text-xl text-md font-semibold cursor-pointer bg-white text-primary rounded-md hover:bg-primary hover:text-white transition-all duration-300'>
+                  Download Resume
+                </button>
+              </Link>
             </div>
 
 
