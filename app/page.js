@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { FaArrowDown } from "react-icons/fa6";
 import { tools } from '@/public/constants';
 import Image from 'next/image';
+import SendMessageForm from '@/public/components/SendMessageForm';
 
 export default function Page() {
   return (
@@ -82,6 +83,14 @@ export default function Page() {
                   </div>
                 </div>
               ))}
+            </div>
+
+            <div className='flex flex-col items-center lg:items-start'>
+              <div className='flex flex-col items-center lg:items-start sm:flex-row md:flex-col sm:gap-2'>
+                <h1 className='text-5xl md:text-8xl font-bold leading-11 md:leading-13'>LET'S WORK</h1>
+                <h1 className='text-5xl md:text-8xl font-bold opacity-15'>TOGETHER</h1>
+              </div>
+              <SendMessageForm />
             </div>
 
           </div>
