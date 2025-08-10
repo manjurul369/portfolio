@@ -33,10 +33,10 @@ export const projectInfo = [
 
 export const experienceInfo = [
     {
-        title: "Junior Full Stack Developer",
+        title: "Full Stack Developer",
         company: "Barishal University App (BU Face)",
         description: "Working as a full-stack developer on the backend of the app, focusing on enhancing user experience and functionality.",
-        date: "March 2025 - Present",
+        date: "March 2025 - Current",
         link: "https://play.google.com/store/apps/details?id=com.abuubaida921.universityofbarisal"
     },
     {
@@ -44,7 +44,7 @@ export const experienceInfo = [
         company: "Barishal University Science Club",
         description: "Leading the IT department, managing technical projects, and ensuring smooth operation of digital platforms.",
         date: "January 2024 - Present",
-        link: "https://www.facebook.com/barishaluniversityscienceclub/"
+        link: "https://www.facebook.com/buscienceclub"
     },
     {
         title: "Content Development Executive",
@@ -171,5 +171,57 @@ export const tools = [
                 icon: mysql
             }
         ],
+    }
+]
+
+
+export const educationInfo = [
+    {
+        title: "B.S in Soil and Environmental Sciences",
+        institution: "University of Barishal, Barishal, Bangladesh",
+        description: "Pursuing a Bachelor's degree in Soil and Environmental Sciences, focusing on the intersection of technology and environmental sustainability.",
+        date: "2023 - Present",
+        link: "https://www.bu.ac.bd/"
+    },
+    {
+        title: "Higher Secondary Certificate (HSC)",
+        institution: "Govt. Bhawal Badre Alam College, Gazipur, Bangladesh",
+        description: "I completed my Higher Secondary Certificate (HSC) from Govt. Bhawal Badre Alam College, focusing on Science, achieving excellent results in subjects such as Physics, Chemistry, and Mathematics.",
+        date: "2019 - 2021",
+        link: "https://bbagc.edu.bd/"
+    },
+    {
+        title: "Secondary School Certificate (SSC)",
+        institution: "Konabari M.A Kuddus High School, Gazipur, Bangladesh",
+        description: "I completed my Secondary School Certificate (SSC) from Konabari M.A Kuddus High School, with a focus on Science, earning top grades in subjects such as Mathematics, Physics, and Chemistry.",
+        date: "2017 - 2019",
+        link: "https://www.facebook.com/barishalzillaschool/"
+    }
+]
+
+export const achievements = [
+    {
+        title: "1st Place in National Level Poster Presentation Competition",
+        institution: "Agridecarbathon - Bangldesh's First Carbon Fest 2025",
+        venue: "CCDB Climate Center, Dhaka, Bangladesh",
+        description: "I'm incredibly honored to be crowned 𝗖𝗵𝗮𝗺𝗽𝗶𝗼𝗻 of the Poster Presentation Competition at Agridecarbathon - 2025. Representing the University of Barishal, I presented my poster Footprints to Blueprints, focused on innovative, sustainable solutions for a low-carbon future. This platform brought together changemakers from across the country to address climate change with bold ideas and collaborative spirit.",
+        date: "May 23, 2025",
+        link: "https://www.linkedin.com/posts/manjurul369_agridecarbonathon2025-champion-climateaction-activity-7332640917230682112-2oA4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEWiTAEB5Bd0zD5fQuWl16OY89gO4RJjZsQ"
+    },
+    {
+        title: "1st Place in Art for Language - Ekushe Design Contest 2025",
+        institution: "Barishal University IT Society",
+        venue: "University of Barishal, Barishal, Bangladesh",
+        description: "Won first place in poster design competition celebrating International Mother Language Day on February 21st, demonstrating exceptional graphic design skills and cultural awareness.",
+        date: "March 08, 2025",
+        link: "https://www.facebook.com/share/p/169ZCVcmKw/"
+    },
+    {
+        title: "Champion of Poster Presentation Competition at National Science Innovation Fest 2.0",
+        institution: "National Museum of Science & Technology, Bangladesh",
+        venue: "University of Barishal, Barishal, Bangladesh",
+        description: "Honored to have won the Poster Presentation Competition at the National Science and Innovation Fest 2.0, organized by the National Museum of Science and Technology, Bangladesh in collaboration with the Barishal University Science Club! Our presentation focused on SDG-13: Climate Action, where we team GreenLife proposed an innovative and eco-friendly solution—Plastic Concrete Bricks. This concept not only offers a sustainable way to reduce plastic waste but also provides a cost-effective alternative in construction.",
+        date: "February 20, 2025",
+        link: "https://www.linkedin.com/posts/manjurul369_sdg13-climateaction-sustainability-activity-7299735350812282880-iu1G?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEWiTAEB5Bd0zD5fQuWl16OY89gO4RJjZsQ"
     }
 ]
