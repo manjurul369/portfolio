@@ -87,7 +87,7 @@ export default function Page() {
 
             <div className='flex flex-col items-center lg:items-start'>
               <div className='flex flex-col items-center lg:items-start sm:flex-row md:flex-col sm:gap-2'>
-                <h1 className='text-5xl md:text-8xl font-bold leading-11 md:leading-13'>LET'S WORK</h1>
+                <h1 className='text-5xl md:text-8xl font-bold leading-11 md:leading-13'>LET&apos;S WORK</h1>
                 <h1 className='text-5xl md:text-8xl font-bold opacity-15'>TOGETHER</h1>
               </div>
               <SendMessageForm />
