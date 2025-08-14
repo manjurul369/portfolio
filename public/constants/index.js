@@ -225,3 +225,31 @@ export const achievements = [
         link: "https://www.linkedin.com/posts/manjurul369_sdg13-climateaction-sustainability-activity-7299735350812282880-iu1G?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEWiTAEB5Bd0zD5fQuWl16OY89gO4RJjZsQ"
     }
 ]
+
+
+export const certifications = [
+    {
+        title: "Data Science with Python",
+        institution: "Enhancing Digital Government & Economy Project (EDGE)",
+        credential_id: "EDGE-DSTS-112-8140-00017",
+        description: "Completed a comprehensive course on Data Science with Python, covering data manipulation, analysis, and visualization techniques using libraries like Pandas, Numpy, and Matplotlib.",
+        date: "April, 2025",
+        link: "https://drive.google.com/file/d/1TPOwZgOIEXIA0U90sMBW_mNcbkam_SnN/view?usp=sharing"
+    },
+    {
+        title: "Python Programming Language",
+        institution: "University of Michigan",
+        credential_id: "J9EQYEWUADLO",
+        description: "Completed a comprehensive course on Full Stack Web Development, covering both front-end and back-end technologies including HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
+        date: "March, 2025",
+        link: "https://www.coursera.org/account/accomplishments/verify/J9EQYEWUADLO"
+    },
+    {
+        title: "Complete Web Development Course",
+        institution: "Programming Hero",
+        credential_id: "WEB10-0661",
+        description: "Completed a comprehensive course on Full Stack Web Development, covering both front-end and back-end technologies including HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
+        date: "July, 2024",
+        link: "https://drive.google.com/file/d/1cDSQe103Q57v7zbtv7Mhbd0_qwXXnWHh/view?usp=sharing"
+    },
+]

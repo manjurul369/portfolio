@@ -18,8 +18,7 @@ export default function Nav() {
     { id: 'projects', label: 'Projects', icon: <Image src={folder} alt="Projects" width={33} height={33} />, href: '/projects' },
     { id: 'experience', label: 'Experience', icon: <CgToolbox className="text-2xl text-white" size={25} />, href: '/experience' },
     { id: 'skills', label: 'Skills', icon: <FiTool className="text-2xl text-white" size={25} />, href: '/skills' },
-    { id: 'education', label: 'Education', icon: <RiGraduationCapLine className="text-2xl text-white" size={25} />, href: '/education' },
-    { id: 'contact', label: 'Contact', icon: <LuContact className="text-2xl text-white" size={25} />, href: '/#contact' }
+    { id: 'education', label: 'Education', icon: <RiGraduationCapLine className="text-2xl text-white" size={25} />, href: '/education' }
   ];
 
   return (
