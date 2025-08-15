@@ -17,7 +17,7 @@ export const projectInfo = [
         technologies: 
         ["React.js", "JavaScript", "Tailwind CSS"],
         github: "https://github.com/manjurul369/nike-shoe",
-        live: "https://manjurul369.github.io/nike-shoe/"
+        live: "https://nike-shoe-manjurul.vercel.app/"
     },
     {
         title: "CropsLife - AI driven agriculture App",
