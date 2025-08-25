@@ -3,6 +3,8 @@ import ProfileCard from '@/public/components/ProfileCard';
 import MotionSection from '@/public/components/MotionSection';
 import Projects from '@/public/components/Projects';
 import SendMessageForm from '@/public/components/SendMessageForm';
+import Video from '@/public/components/Video';
+import { videoInfo } from '@/public/constants';
 
 export default function Page() {
     return (
@@ -19,6 +21,23 @@ export default function Page() {
                                 <h1 className='text-5xl md:text-8xl font-bold opacity-15'>PROJECTS</h1>
                             </div>
                             <Projects />
+                            {/* Project Video Section */}
+                            <div className='w-full mt-10'>
+                                <div className='flex flex-col items-center lg:items-start mb-6'>
+                                    <h2 className='text-3xl md:text-4xl font-bold text-white mb-2'>Project Demo</h2>
+                                    <p className='text-para-black text-center lg:text-left max-w-[600px]'>
+                                        Watch me walk through my projects, explaining the development process, key features, and technical decisions behind each solution.
+                                    </p>
+                                </div>
+                                {videoInfo.map((video, index) => (
+                                    <Video
+                                        key={index}
+                                        videoId={video.id}
+                                        title={video.title}
+                                        description={video.description}
+                                    />
+                                ))}
+                            </div>
                             <div className='mt-10'></div>
                         </MotionSection>
 

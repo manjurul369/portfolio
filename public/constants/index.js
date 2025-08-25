@@ -199,6 +199,14 @@ export const educationInfo = [
     }
 ]
 
+export const videoInfo = [
+    {
+        id: "https://youtu.be/quWijCZtUA4", // Replace with your actual YouTube video ID or full URL
+        title: "AI/ML Based Crop Recommendation System Project Overview",
+        description: "Watch me explain the development process, challenges, and solutions behind my project. Get insights into my coding approach and problem-solving methodology."
+    }
+]
+
 export const achievements = [
     {
         title: "1st Place in National Level Poster Presentation Competition",

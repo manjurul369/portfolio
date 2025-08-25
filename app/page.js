@@ -1,13 +1,14 @@
 import React from 'react'
 import ProfileCard from '@/public/components/ProfileCard'
 import Projects from '@/public/components/Projects'
-import { experienceInfo } from '@/public/constants'
+import { experienceInfo, videoInfo } from '@/public/constants'
 import Link from 'next/link';
 import { FaArrowDown } from "react-icons/fa6";
 import { tools } from '@/public/constants';
 import Image from 'next/image';
 import SendMessageForm from '@/public/components/SendMessageForm';
 import MotionSection from '@/public/components/MotionSection';
+import Video from '@/public/components/Video';
 
 export default function Page() {
   return (
@@ -37,6 +38,24 @@ export default function Page() {
                 <h1 className='text-5xl md:text-8xl font-bold opacity-15'>PROJECTS</h1>
               </div>
               <Projects />
+              
+              {/* Project Video Section */}
+              <div className='w-full mt-10'>
+                <div className='flex flex-col items-center lg:items-start mb-6'>
+                  <h2 className='text-3xl md:text-4xl font-bold text-white mb-2'>Project Demo</h2>
+                  <p className='text-para-black text-center lg:text-left max-w-[600px]'>
+                    Watch me walk through my projects, explaining the development process, key features, and technical decisions behind each solution.
+                  </p>
+                </div>
+                {videoInfo.map((video, index) => (
+                  <Video 
+                    key={index}
+                    videoId={video.id}
+                    title={video.title}
+                    description={video.description}
+                  />
+                ))}
+              </div>
             </MotionSection>
 
             <MotionSection delay={0.4} className='flex flex-col items-center lg:items-start mt-10' id="experience">
